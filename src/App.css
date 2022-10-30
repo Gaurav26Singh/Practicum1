@@ -1,0 +1,115 @@
+.data
+{
+ overflow: hidden;
+ background: url('https://waypointpartners.co.uk/wp-content/uploads/2022/05/Waypoint-reverse-semi-transparent-pattern.png');
+  background-size:cover;
+}
+header
+{
+ 
+  width: 100vw;
+  margin-left: auto;
+  background-color:rgb(22, 22, 92);
+  display: flex;
+  height: 13vh;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img
+{
+  height: 70px;
+  margin-left: 5px;
+}
+.options
+{
+  margin-top: 2px;
+  width: 780px;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.options a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+.welcome
+{
+  display: flex;
+  justify-content: space-between;
+}
+.mygif
+{
+  height: 87vh;
+  width: 47%;
+  background-color: #040a30;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+.mygif img
+{
+ width: auto;
+}
+.info
+{
+  position: relative;
+  left: 0;
+  width: 53%;
+  padding-top: 45px;
+  padding-left: 70px;
+  box-sizing: border-box;
+  
+  
+}
+#head
+{
+  font-size: 50px;
+}
+#discription
+{
+  margin-top: 0px;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+/* .start
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+} */
+#startbtn
+{
+
+  margin-top: 17px;
+  margin-left: auto;
+  height: 60px;
+  width: 200px;
+  font-size: 19px;
+  background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgb(10, 14, 138) 0%, rgb(17, 8, 113) 97.5% );
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  
+}
+#startbtn:hover
+{
+  background-image: radial-gradient( circle 610px at 5.2% 51.6%,  rgb(30, 35, 179) 0%, rgb(39, 27, 171) 97.5% );
+  color: white;
+}
+/* .contributors
+{
+ 
+} */
+.members
+{
+  display: flex;
+   width: 95%;
+  margin: auto;
+  justify-content: space-between;
+}
+.members li
+{
+  list-style: none;
+
+}
